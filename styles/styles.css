@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+    --azulClaro: #2EB2BF;
+    --azulMedio: #306D9A;
+    --azulEscuro: #302372;
+    --vermelho: #CB2127;
+    --verde: #2ECC71;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+body
+{
+    background-image: linear-gradient(to left,var(--azulClaro),var(--azulMedio),var(--azulEscuro));
+}
+
+main{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 566px;
+    padding: 20px;
+}
+
+h1{ 
+    text-align: center;
+    color: var(--azulEscuro);
+}
+
+h2{
+    padding: 20px;
+    margin: 20px;
+
+    color: white;
+    background-color: var(--azulMedio);
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+  
+    margin-top: 10px;
+    padding: 10px 10px 10px 0px;
+    background-color: rgba(128, 128, 128, 0.356);
+    
+  
+}
+span.alternativa{
+    background-color:var(--vermelho);
+    padding: 10px;
+    color: white;
+}
+
+span.texto{
+    color: var(--vermelho);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#alternativaA:hover > span.alternativa{
+    background-color: var(--verde);
+}
+
+#alternativaA:hover > span.texto{
+    color: var(--verde);
+}
+
+#alternativaB:hover > span.alternativa{
+    background-color: var(--verde);
+}
+
+#alternativaB:hover > span.texto{
+    color: var(--verde);
+}
+
+#alternativaC:hover > span.alternativa{
+    background-color: var(--verde);
+}
+
+#alternativaC:hover > span.texto{
+    color: var(--verde);
+}
+
+#alternativaD:hover > span.alternativa{
+    background-color: var(--verde);
+}
+
+#alternativaD:hover > span.texto{
+    color: var(--verde);
+}
+
+
+
