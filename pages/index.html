@@ -20,11 +20,24 @@
 
             </li>
 
-            <li id="alternativaB"> <span class="alternativa" id="span-alternativaB">B </span> <span class="texto">Cascading Style Sheets</span></li>
-            <li id="alternativaC"> <span class="alternativa" id="span-alternativaC">C </span> <span class="texto">Colorful Style Sheets</span></li>
-            <li id="alternativaD"> <span class="alternativa" id="span-alternativaD">D </span> <span class="texto">Colorful Style Sheets</span></li>
+            <li id="alternativaB" onclick="quiz('B')"> 
+                <span class="alternativa" id="span-alternativaB">B </span> 
+                <span class="texto" id='txtB'>Cascading Style Sheets</span>
+            </li>
+
+            <li id="alternativaC" onclick="quiz('C')"> 
+                <span class="alternativa" id="span-alternativaC">C </span> 
+                <span class="texto" id='txtC'>Colorful Style Sheets</span>
+            </li>
+
+            <li id="alternativaD" onclick="quiz('D')"> 
+                <span class="alternativa" id="span-alternativaD">D </span> 
+                <span class="texto" id='txtD'>Colorful Style Sheets</span>
+            </li>
            
         </ul>
+        <br>
+        <button onclick="resultado()">Enviar</button>
     </main>
     
 </body>

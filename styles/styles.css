@@ -72,6 +72,7 @@ span.texto{
     color: var(--verde);
 }
 
+
 #alternativaB:hover > span.alternativa{
     background-color: var(--verde);
 }
@@ -79,6 +80,7 @@ span.texto{
 #alternativaB:hover > span.texto{
     color: var(--verde);
 }
+
 
 #alternativaC:hover > span.alternativa{
     background-color: var(--verde);
@@ -96,5 +98,19 @@ span.texto{
     color: var(--verde);
 }
 
+button{
+    padding: 10px 10px 10px 0px;
+    width: 100%;
+    background-color: var(--vermelho);
+    color: white;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
 
+button:hover{
+    background-color: var(--verde);
+    
+    
+}
 
